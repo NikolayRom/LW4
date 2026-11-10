@@ -392,6 +392,7 @@ int main() {
             << std::setw(10) << runs[1]
             << std::setw(10) << runs[2]
             << std::setw(12) << avgTime
+            << std::setprecision(3)
             << std::setw(16) << avgWait << L"\n";
     }
 
